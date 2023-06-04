@@ -267,12 +267,16 @@ section{
   color: #f9f9f9;
   width: 6rem;
   /* padding: 8px; */
-  padding-left: 15px;
+  /* padding-left: 15px; */
   padding-top: 9px;
-  
+  text-align: center;
   font-weight: 600;
   border-radius: 5px;
   /* border: px solid white; */
+}
+.resume a{
+  color: #f9f9f9;
+
 }
 .contact {
   box-sizing: border-box;
@@ -285,13 +289,16 @@ section{
   border-radius: 5px;
   border: 2px solid #5000CA;
 }
-.socialLinks > i:nth-child(1){
+.contact a{
+  color: #5000CA;
+}
+.socialLinks > a:nth-child(1){
   color: #0a66c2;
 }
-.socialLinks > i:nth-child(2){
+.socialLinks > a:nth-child(2){
   color: black;
 }
-.socialLinks > i:nth-child(3){
+.socialLinks > a:nth-child(3){
   color: #1a8cd8;
 }
 #svgDiv{
@@ -312,14 +319,14 @@ section{
   line-height: 2;
 }
 #aboutText{
-  /* text-align: center; */
+  text-align: center;
   font-size: 40px;
   color: #5000CA;
   padding: 5px;
-/* margin: auto  ; */
+  /* width: 17%; */
+margin: auto ;
 margin-bottom: 40px;
 font-weight: 600;
-width: 17%;
   border-bottom: 3px solid #5000CA;
 }
 #headd{
@@ -363,6 +370,7 @@ border-bottom: 3px solid #5000CA;
 }
 #aboutSection{
   justify-content: center;
+  height: auto;
   padding-bottom: 50px;
 }
 .projectCard{
@@ -560,7 +568,7 @@ width: 100%;
 }
 #aboutText{
   font-size: 30px;
-  width: 40%;
+  width: 60%;
 }
 .techGrid{
   grid-template-columns: repeat(4,1fr);
@@ -568,11 +576,12 @@ width: 100%;
 }
 #techText{
   font-size: 30px;
-  width: 70%;
+  width: 80%;
 }
 #workText{
   font-size: 30px;
-  width: 40%;
+  width: 50%
+  /* color: green; */
 }
 .projectCard{
   flex-direction: column;
