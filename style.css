@@ -184,7 +184,7 @@ section{
   transform: rotate(-135deg);
 }
 
-  #name {
+  #user-detail-name {
     font-size: 55px;
     /* height: 50px; */
     display: flex;
@@ -202,7 +202,7 @@ section{
   gap: 1rem;
 }
 #greet,
-#fsd {
+#user-detail-intro {
   font-size: 30px;
   font-weight: bolder;
   display: flex;
@@ -261,7 +261,7 @@ section{
   gap: 1rem;
 }
 
-.resume {
+#resume {
   box-sizing: border-box;
   background-color: #5000CA;
   color: #f9f9f9;
@@ -274,11 +274,11 @@ section{
   border-radius: 5px;
   /* border: px solid white; */
 }
-.resume a{
+#resume a{
   color: #f9f9f9;
 
 }
-.contact {
+#contact {
   box-sizing: border-box;
   /* background-color: #5000CA; */
   color: #5000CA;
@@ -289,7 +289,7 @@ section{
   border-radius: 5px;
   border: 2px solid #5000CA;
 }
-.contact a{
+#contact a{
   color: #5000CA;
 }
 .socialLinks > a:nth-child(1){
@@ -368,12 +368,12 @@ font-weight: 600;
 border-bottom: 3px solid #5000CA;
   text-align: center;
 }
-#aboutSection{
+#about{
   justify-content: center;
   height: auto;
   padding-bottom: 50px;
 }
-.projectCard{
+.project-card{
   display: flex;
   padding: 30px;   
   align-items: center;
@@ -403,7 +403,7 @@ border-bottom: 3px solid #5000CA;
   align-items: center;
   /* padding: 40px; */
 }
-.stacks{
+.project-tech-stack{
   display: flex ;
   align-items: center;
   gap: 10px;
@@ -441,7 +441,7 @@ border-bottom: 3px solid #5000CA;
   background-color: #5000CA;
   color: white;
 }
-#projectSection{
+#projects{
   height: auto;
   padding-bottom: 50px;
 }
@@ -460,7 +460,7 @@ border-bottom: 3px solid #5000CA;
   height: auto;
   padding-bottom: 40px;
 }
-.stacks > div{
+.project-tech-stack > div{
   gap: 10px;
 }
 #stats,#daysWork{
@@ -549,7 +549,7 @@ width: 100%;
   justify-content: center;
   font-size: 27px;
 }
-#name{
+#user-detail-name{
   font-size: 40px;
 }
 #svgDiv{
@@ -583,13 +583,13 @@ width: 100%;
   width: 50%
   /* color: green; */
 }
-.projectCard{
+.project-card{
   flex-direction: column;
 }
 .projectWrapper{
   width: 90%;
 }
-.stacks{
+.project-tech-stack{
   flex-direction: column;
   flex-wrap: wrap;
   font-size: 20px;

@@ -27,15 +27,24 @@
     <title>Laxya-Rupeja Portfolio</title>
   </head>
   <body>
-    <nav>
+    <nav id="nav-menu">
       <div><a href="#HomePageSec">&ltLaxya.Rupeja/&gt</a></div>
       <div>
         <ul>
-          <li><a href="#HomePageSec">Home</a></li>
-          <li><a href="#aboutSection">About</a></li>
-          <li><a href="#textStack">Skills</a></li>
-          <li><a href="#projectSection">Work</a></li>
-          <li><a href="#footer">Contact</a></li>
+          <li><a href="#HomePageSec" class="nav-link home">Home</a></li>
+          <li><a href="#aboutSection" class="nav-link about">About</a></li>
+          <li><a href="#textStack" class="nav-link skills">Skills</a></li>
+          <li><a href="#projectSection" class="nav-link projects">Work</a></li>
+          <li><a href="#footer" class="nav-link contact">Contact</a></li>
+          <li>
+            <a
+              href="Laxya-Rupeja-Resume.pdf"
+              id="resume-link-2"
+              download
+              class="nav-link resume"
+              >Resume</a
+            >
+          </li>
         </ul>
       </div>
       <div id="nav-icon1">
@@ -61,8 +70,8 @@
                 src="https://stefantopalovicdev.vercel.app/static/media/waving.1bae5fcfb51082b5c2b4.png"
               />, my name is
             </p>
-            <p id="name">Laxya Rupeja</p>
-            <p id="fsd"><span class="text"></span></p>
+            <p id="user-detail-name">Laxya Rupeja</p>
+            <p id="user-detail-intro"><span class="text"></span></p>
             <div class="socialLinks">
               <a href="https://www.linkedin.com/in/laxya-rupeja-b9684a221/"
                 ><i class="fa-brands fa-linkedin"></i
@@ -75,18 +84,27 @@
               ></a>
             </div>
             <div class="resGro">
-              <p class="resume">
-                <a href="Laxya-Rupeja-Resume.pdf" download>Resume</a>
+              <p id="resume">
+                <a
+                  id="resume-link-1"
+                  href="https://drive.google.com/file/d/1a7v8dgS9Gnak0lt-ixIYK9SevYSU2Z6b/view?usp=drive_link"
+                  >Resume</a
+                >
               </p>
-              <p class="contact"><a href="#footer">Contact</a></p>
+              <p id="contact"><a href="#footer">Contact</a></p>
             </div>
           </div>
           <div id="rightSideImage">
-            <img id="MyImage" src="filnalDraftIMag.png" alt="" />
+            <img
+              id="MyImage"
+              class="home-img"
+              src="filnalDraftIMag.png"
+              alt=""
+            />
           </div>
         </div>
       </section>
-      <section id="aboutSection">
+      <section id="about" class="about section">
         <p id="aboutText">About Me</p>
         <div class="aboutMe">
           <div id="svgDiv">
@@ -120,7 +138,7 @@
       </section>
       <section id="textStack">
         <h1 id="techText">Technical-Skills</h1>
-        <div class="techGrid">
+        <div class="techGrid" id="skills">
           <div>
             <img
               src="https://stefantopalovicdev.vercel.app/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg"
@@ -210,11 +228,11 @@
           </div>
         </div>
       </section>
-      <section id="projectSection">
+      <section id="projects">
         <div>
           <p id="workText">My Work</p>
           <div class="projectWrapper">
-            <div class="projectCard">
+            <div class="project-card">
               <div class="imgProject">
                 <img
                   src="projectsImg/Web capture_3-6-2023_181848_craftverse.netlify.app.jpeg"
@@ -222,13 +240,13 @@
                 />
               </div>
               <div class="infoProject">
-                <h3>Craftverse</h3>
-                <p>
+                <h3 class="project-title">Craftverse</h3>
+                <p class="project-description">
                   Craftverse is a clone of craftvilla.com which is an ecommerce
                   website with wide variety of product like home-decor and some
                   fashion product also with seemless user experience
                 </p>
-                <div class="stacks">
+                <div class="project-tech-stack">
                   Tech Stack -
                   <div>
                     <img
@@ -283,7 +301,7 @@
                 </div>
               </div>
             </div>
-            <div class="projectCard">
+            <div class="project-card">
               <div class="imgProject">
                 <img
                   src="projectsImg/Web capture_3-6-2023_182740_non-veg-verse.netlify.app.jpeg"
@@ -298,7 +316,7 @@
                   demand for convenient access to high-quality non-vegetarian
                   food products.
                 </p>
-                <div class="stacks">
+                <div class="project-tech-stack">
                   Tech Stack -
                   <div>
                     <img
@@ -322,18 +340,24 @@
                   </div>
                 </div>
                 <div class="links">
-                  <a href="https://github.com/LaxyaRupeja/tasteless-horse-2112">
+                  <a
+                    class="project-github-link"
+                    href="https://github.com/LaxyaRupeja/tasteless-horse-2112"
+                  >
                     <i class="fa-brands fa-github"></i>
                     Code
                   </a>
-                  <a href="https://non-veg-verse.netlify.app/">
+                  <a
+                    class="project-deployed-link"
+                    href="https://non-veg-verse.netlify.app/"
+                  >
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     Live
                   </a>
                 </div>
               </div>
             </div>
-            <div class="projectCard">
+            <div class="project-card">
               <div class="imgProject">
                 <img
                   src="projectsImg/Web capture_3-6-2023_183018_stylio.netlify.app.jpeg"
@@ -348,7 +372,7 @@
                   experience for users looking to purchase fashionable clothing
                   items.
                 </p>
-                <div class="stacks">
+                <div class="project-tech-stack">
                   Tech Stack -
                   <div>
                     <img
@@ -390,16 +414,22 @@
         <div id="github">
           <div id="daysWork">
             <p>Days I Worked</p>
-            <img src="https://ghchart.rshah.org/LaxyaRupeja" alt="" />
+            <img
+              id="react-activity-calendar"
+              src="https://ghchart.rshah.org/LaxyaRupeja"
+              alt=""
+            />
           </div>
           <div id="stats">
             <p>My Statistics</p>
             <div>
               <img
+                id="github-streak-stats"
                 src="https://github-readme-streak-stats.herokuapp.com/?user=LaxyaRupeja"
                 alt=""
               />
               <img
+                id="github-stats-card"
                 src="https://github-readme-stats.vercel.app/api?username=LaxyaRupeja&show_icons=true"
                 alt=""
               />
@@ -408,19 +438,26 @@
         </div>
       </section>
       <section id="footer">
-        <div>
+        <div id="contact">
           <h3>Contact Me</h3>
-          <a href="laxyarupeja@gmail.com">
+          <a href="laxyarupeja@gmail.com" id="contact-email">
             <i class="fa-regular fa-envelope"></i>
             laxyarupeja@gmail.com
           </a>
-          <a>
+          <a id="contact-phone">
             <i class="fa-solid fa-phone"></i>
             +91-7014977863
           </a>
-          <a href="https://www.linkedin.com/in/laxya-rupeja-b9684a221/">
+          <a
+            id="contact-linkedin"
+            href="https://www.linkedin.com/in/laxya-rupeja-b9684a221/"
+          >
             <i class="fa-brands fa-linkedin"></i>
             Linkedin
+          </a>
+          <a id="contact-github" href="https://github.com/LaxyaRupeja/">
+            <i class="fa-brands fa-github"></i>
+            Github
           </a>
         </div>
       </section>
