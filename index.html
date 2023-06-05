@@ -31,10 +31,10 @@
       <div><a href="#HomePageSec">&ltLaxya.Rupeja/&gt</a></div>
       <div>
         <ul>
-          <li><a href="#HomePageSec" class="nav-link home">Home</a></li>
-          <li><a href="#aboutSection" class="nav-link about">About</a></li>
-          <li><a href="#textStack" class="nav-link skills">Skills</a></li>
-          <li><a href="#projectSection" class="nav-link projects">Work</a></li>
+          <li><a href="#home" class="nav-link home">Home</a></li>
+          <li><a href="#about" class="nav-link about">About</a></li>
+          <li><a href="#skills" class="nav-link skills">Skills</a></li>
+          <li><a href="#projects" class="nav-link projects">Work</a></li>
           <li><a href="#footer" class="nav-link contact">Contact</a></li>
           <li>
             <a
@@ -54,14 +54,14 @@
       </div>
     </nav>
     <div class="mobile-nav">
-      <a href="#HomePageSec">Home</a>
-      <a href="#aboutSection">About</a>
-      <a href="#textStack">Skills</a>
-      <a href="#projectSection">Work</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Work</a>
       <a href="#footer">Contact</a>
     </div>
     <main>
-      <section id="HomePageSec">
+      <section id="home">
         <div class="homePageSection">
           <div id="leftSideText">
             <p id="greet">
@@ -71,7 +71,7 @@
               />, my name is
             </p>
             <p id="user-detail-name">Laxya Rupeja</p>
-            <p id="user-detail-intro"><span class="text"></span></p>
+            <p id="user-detail-intro1"><span class="text"></span></p>
             <div class="socialLinks">
               <a href="https://www.linkedin.com/in/laxya-rupeja-b9684a221/"
                 ><i class="fa-brands fa-linkedin"></i
@@ -121,7 +121,7 @@
               An accomplished Full Stack Developer with over 1200 hours of
               experience in HTML, CSS, Node, and MongoDB.
             </p>
-            <p>
+            <p id="user-detail-intro">
               Proficient in front-end development, specializing in creating
               responsive and user-friendly interfaces for seamless user
               experiences across multiple platforms. Skilled in back-end
@@ -136,9 +136,9 @@
           </div>
         </div>
       </section>
-      <section id="textStack">
+      <section id="skills">
         <h1 id="techText">Technical-Skills</h1>
-        <div class="techGrid" id="skills">
+        <div class="techGrid">
           <div>
             <img
               src="https://stefantopalovicdev.vercel.app/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg"
@@ -289,12 +289,16 @@
                 </div>
                 <div class="links">
                   <a
+                    class="project-github-link"
                     href="https://github.com/LaxyaRupeja/nonchalant-wound-7973/"
                   >
                     <i class="fa-brands fa-github"></i>
                     Code
                   </a>
-                  <a href="https://craftverse.netlify.com/">
+                  <a
+                    class="project-deployed-link"
+                    href="https://craftverse.netlify.com/"
+                  >
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     Live
                   </a>
@@ -396,11 +400,73 @@
                   </div>
                 </div>
                 <div class="links">
-                  <a href="https://github.com/LaxyaRupeja/abrupt-kitty-9277">
+                  <a
+                    class="project-github-link"
+                    href="https://github.com/LaxyaRupeja/abrupt-kitty-9277"
+                  >
                     <i class="fa-brands fa-github"></i>
                     Code
                   </a>
-                  <a href="https://stylio.netlify.app/">
+                  <a
+                    class="project-deployed-link"
+                    href="https://stylio.netlify.app/"
+                  >
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    Live
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="imgProject">
+                <img
+                  src="projectsImg/Web capture_3-6-2023_183018_stylio.netlify.app.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="infoProject">
+                <h3>Stylio.com</h3>
+                <p>
+                  Stylio.com is an e-commerce clothing website inspired by
+                  Ajio.com, designed to provide an easy and seamless shopping
+                  experience for users looking to purchase fashionable clothing
+                  items.
+                </p>
+                <div class="project-tech-stack">
+                  Tech Stack -
+                  <div>
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://img.icons8.com/color/48/html-5--v1.png"
+                      alt="html-5--v1"
+                    />
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://img.icons8.com/color/48/css3.png"
+                      alt="css3"
+                    />
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://img.icons8.com/color/48/javascript--v1.png"
+                      alt="javascript--v1"
+                    />
+                  </div>
+                </div>
+                <div class="links">
+                  <a
+                    class="project-github-link"
+                    href="https://github.com/LaxyaRupeja/abrupt-kitty-9277"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                    Code
+                  </a>
+                  <a
+                    class="project-deployed-link"
+                    href="https://stylio.netlify.app/"
+                  >
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     Live
                   </a>
@@ -415,7 +481,7 @@
           <div id="daysWork">
             <p>Days I Worked</p>
             <img
-              id="react-activity-calendar"
+              class="react-activity-calendar"
               src="https://ghchart.rshah.org/LaxyaRupeja"
               alt=""
             />
