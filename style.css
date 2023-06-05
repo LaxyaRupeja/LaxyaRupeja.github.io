@@ -278,7 +278,7 @@ section{
   color: #f9f9f9;
 
 }
-#contact {
+#contactBtn {
   box-sizing: border-box;
   /* background-color: #5000CA; */
   color: #5000CA;
@@ -493,12 +493,13 @@ width: 100%;
   height: auto;
   padding-bottom: 40px;
 }
-#footer{
+#contact{
   background-color: #5000CA;
+  width: 100vw;
   height: auto;
   padding: 70px 0;
 }
-#footer > div{
+#contact > div{
   width: 70%;
   color: white;
   display: flex;
@@ -507,14 +508,14 @@ width: 100%;
   font-size: 25px;
   
 }
-#footer a{
+#contact a{
   text-decoration: none;
   color: white;
   display: flex;
   align-items: center;
   gap: 15px;
 }
-#footer > div > h3{
+#contact > div > h3{
   font-size: 40px;
   border-bottom: 3px solid white;
 
@@ -604,7 +605,7 @@ width: 100%;
 #gitt p{
   border-bottom: 3px solid #5000CA;
 }
-#footer > div{
+#contact > div{
   font-size: 18px;
 }
 }
