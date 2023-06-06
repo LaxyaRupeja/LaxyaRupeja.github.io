@@ -348,6 +348,9 @@ font-weight: 600;
   padding: 13%;
   display: flex;
   align-items: center;
+  flex-direction: column;
+  font-weight: 600;
+  color: #2d2e32;
   justify-content: center;
   border-radius: 10px;
 }
