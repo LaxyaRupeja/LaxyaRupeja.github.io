@@ -23,6 +23,6 @@ for (let i = 0; i < mobNavLink.length; i++) {
         mobNav.classList.toggle("is-active")
     })
 }
-document.getElementById("resume-button-2").addEventListener("click", () => {
-    window.open("https://drive.google.com/file/d/1a7v8dgS9Gnak0lt-ixIYK9SevYSU2Z6b/view?usp=sharing", "__blank")
-})
+// document.getElementById("resume-button-2").addEventListener("click", () => {
+//     window.open("https://drive.google.com/file/d/1a7v8dgS9Gnak0lt-ixIYK9SevYSU2Z6b/view?usp=sharing", "__blank")
+// })
