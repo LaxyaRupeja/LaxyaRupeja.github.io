@@ -1,3 +1,4 @@
+AOS.init();
 var typing = new Typed(".text", {
     strings: ["I'm a Full Stack Developer"],
     typeSpeed: 100,

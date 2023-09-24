@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
       integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
@@ -63,7 +64,7 @@
     <main>
       <section id="home">
         <div class="homePageSection">
-          <div id="leftSideText">
+          <div id="leftSideText" data-aos="fade-right">
             <p id="greet">
               Hello<img
                 id="hiImage"
@@ -73,7 +74,9 @@
             <p id="user-detail-name">Laxya Rupeja</p>
             <p id="user-detail-intro1"><span class="text"></span></p>
             <div class="socialLinks">
-              <a href="https://www.linkedin.com/in/laxya-rupeja-b9684a221/"
+              <a
+                href="https://www.linkedin.com/in/laxya-rupeja-68a95527b/"
+                target="_blank"
                 ><i class="fa-brands fa-linkedin"></i
               ></a>
               <a href="https://github.com/LaxyaRupeja/"
@@ -85,12 +88,19 @@
             </div>
             <div class="resGro">
               <p id="resume">
-                <a href="./Laxya-Rupeja-Resume.pdf" download="./Laxya-Rupeja-Resume.pdf" id="resume-button-2">Resume</a>
+                <a
+                  href="./Laxya-Rupeja-Resume.pdf"
+                  download="./Laxya-Rupeja-Resume.pdf"
+                  id="resume-button-2"
+                  >Resume</a
+                >
               </p>
-              <p id="contactBtn"><a href="#contact">Contact</a></p>
+              <p id="contactBtn">
+                <a href="#contact" id="cContentButton">Contact</a>
+              </p>
             </div>
           </div>
-          <div id="rightSideImage">
+          <div id="rightSideImage" data-aos="fade-left">
             <img
               id="MyImage"
               class="home-img"
@@ -101,9 +111,9 @@
         </div>
       </section>
       <section id="about" class="about section">
-        <p id="aboutText">About Me</p>
+        <p id="aboutText" data-aos="zoom-in">About Me</p>
         <div class="aboutMe">
-          <div id="svgDiv">
+          <div id="svgDiv" data-aos="fade-right">
             <lottie-player
               src="https://lottie.host/bdedc927-ef68-42f8-93c3-2e8058c96b0a/GHD8GlUAW3.json"
               background="transparent"
@@ -112,7 +122,7 @@
               autoplay
             ></lottie-player>
           </div>
-          <div id="textDiv">
+          <div id="textDiv" data-aos="fade-left">
             <p id="headd">
               An accomplished Full Stack Developer with over 1200 hours of
               experience in HTML, CSS, Node, and MongoDB.
@@ -133,12 +143,12 @@
         </div>
       </section>
       <section id="skills">
-        <h1 id="techText">Technical-Skills</h1>
-        <div class="techGrid">
+        <h1 id="techText" data-aos="zoom-in">Technical-Skills</h1>
+        <div class="techGrid" data-aos="fade-right" data-aos-delay="200">
           <div class="skills-card">
             <img
               class="skills-card-img"
-              src="https://stefantopalovicdev.vercel.app/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg"
+              src="https://img.icons8.com/color/128/html-5--v1.png"
               alt=""
             />
 
@@ -147,7 +157,7 @@
           <div class="skills-card">
             <img
               class="skills-card-img"
-              src="https://stefantopalovicdev.vercel.app/static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg"
+              src="https://img.icons8.com/color/128/css3.png"
               alt=""
             />
             <p class="skills-card-name">CSS</p>
@@ -163,7 +173,7 @@
           <div class="skills-card">
             <img
               class="skills-card-img"
-              src="https://stefantopalovicdev.vercel.app/static/media/tailwind.79614a5f61617ba49a0891494521226b.svg"
+              src="https://img.icons8.com/color/128/tailwind_css.png"
               alt=""
             />
             <p class="skills-card-name">TailwindCSS</p>
@@ -233,36 +243,233 @@
             <p class="skills-card-name">Mongoose</p>
           </div>
           <div class="skills-card">
-            <img class="skills-card-img" src="#" alt="N/A" />
-            <p class="skills-card-name">N/A</p>
+            <img
+              class="skills-card-img"
+              src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+              alt="N/A"
+            />
+            <p class="skills-card-name">React</p>
           </div>
           <div class="skills-card">
-            <img class="skills-card-img" src="#" alt="N/A" />
-            <p class="skills-card-name">N/A</p>
+            <img
+              class="skills-card-img"
+              src="https://avatars.githubusercontent.com/u/54212428?s=200&v=4"
+              alt="N/A"
+            />
+            <p class="skills-card-name">Chakra-UI</p>
           </div>
           <div class="skills-card">
-            <img class="skills-card-img" src="#" alt="N/A" />
-            <p class="skills-card-name">N/A</p>
+            <img
+              class="skills-card-img"
+              src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+              alt="N/A"
+            />
+            <p class="skills-card-name">AWS</p>
           </div>
           <div class="skills-card">
-            <img class="skills-card-img" src="#" alt="N/A" />
-            <p class="skills-card-name">N/A</p>
+            <img
+              class="skills-card-img"
+              src="https://w7.pngwing.com/pngs/28/601/png-transparent-sql-logo-illustration-microsoft-azure-sql-database-microsoft-sql-server-database-blue-text-logo.png"
+              alt="N/A"
+            />
+            <p class="skills-card-name">SQL</p>
           </div>
           <div class="skills-card">
-            <img class="skills-card-img" src="#" alt="N/A" />
-            <p class="skills-card-name">N/A</p>
+            <img
+              class="skills-card-img"
+              src="https://seeklogo.com/images/O/open-ai-logo-560B8FFD24-seeklogo.com.png"
+              alt="N/A"
+            />
+            <p class="skills-card-name">OpenAi</p>
           </div>
           <div class="skills-card">
-            <img class="skills-card-img" src="#" alt="N/A" />
-            <p class="skills-card-name">N/A</p>
+            <img
+              class="skills-card-img"
+              src="5848152fcef1014c0b5e4967.png"
+              alt="N/A"
+            />
+            <p class="skills-card-name">Python</p>
+          </div>
+          <div class="skills-card">
+            <img
+              class="skills-card-img"
+              src="https://cdn.worldvectorlogo.com/logos/flask.svg"
+              alt="N/A"
+            />
+            <p class="skills-card-name">Flask</p>
+          </div>
+          <div class="skills-card">
+            <img
+              class="skills-card-img"
+              src="https://seeklogo.com/images/J/json-web-tokens-jwt-io-logo-C003DEC47A-seeklogo.com.png"
+              alt="N/A"
+            />
+            <p class="skills-card-name">JWT</p>
+          </div>
+          <div class="skills-card">
+            <img
+              class="skills-card-img"
+              src="png-transparent-visual-studio-code-hd-logo-removebg-preview.png"
+              alt="N/A"
+            />
+            <p class="skills-card-name">VS-CODE</p>
           </div>
         </div>
       </section>
       <section id="projects">
         <div>
-          <p id="workText">My Work</p>
+          <p id="workText" data-aos="zoom-in">My Work</p>
           <div class="projectWrapper">
-            <div class="project-card">
+            <div data-aos="zoom-in" data-aos-delay="200" class="project-card">
+              <div class="imgProject">
+                <img src="projectsImg/GlamConnectWebCapture.jpeg" alt="" />
+              </div>
+              <div class="infoProject">
+                <h3 class="project-title">Glam-Connect</h3>
+                <p class="project-description">
+                  GlamConnect is a web application that allows users to book
+                  beauty appointments with professionals in different
+                  categories, such as Hair and Styling, Makeup Artists, and
+                  Estheticians and Skincare Specialists.
+                </p>
+                <div class="project-tech-stack">
+                  Tech Stack -
+                  <div>
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+                      alt="html-5--v1"
+                    />
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://avatars.githubusercontent.com/u/54212428?s=200&v=4"
+                      alt="tailwind_css"
+                    />
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://img.icons8.com/color/48/nodejs.png"
+                      alt="nodejs"
+                    />
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://img.icons8.com/color/48/express-js.png"
+                      alt="express-js"
+                    />
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png"
+                      alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo"
+                    />
+                  </div>
+                </div>
+                <div class="links">
+                  <a
+                    class="project-github-link"
+                    href="https://github.com/LaxyaRupeja/GlamConnect-Appointment-Booking"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                    Code
+                  </a>
+                  <a
+                    class="project-deployed-link"
+                    href="https://glamconnect.vercel.app/"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    Live
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="200" class="project-card">
+              <div class="imgProject">
+                <img
+                  src="projectsImg/Web capture_18-9-2023_17333_lovely-lily-a2088f.netlify.app.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="infoProject">
+                <h3 class="project-title">Chatify</h3>
+                <p class="project-description">
+                  The Real-Time Chat Application with Group Feature is a modern
+                  and dynamic communication platform that enables users to
+                  engage in real-time conversations, both one-on-one and in
+                  groups.
+                </p>
+                <div class="project-tech-stack">
+                  Tech Stack -
+                  <div>
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://img.icons8.com/color/48/html-5--v1.png"
+                      alt="html-5--v1"
+                    />
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://img.icons8.com/color/128/css3.png"
+                      alt="css"
+                    />
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://img.icons8.com/color/48/javascript--v1.png"
+                      alt="javascript--v1"
+                    />
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://img.icons8.com/color/48/nodejs.png"
+                      alt="nodejs"
+                    />
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://img.icons8.com/color/48/express-js.png"
+                      alt="express-js"
+                    />
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg"
+                      alt=""
+                    />
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png"
+                      alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo"
+                    />
+                  </div>
+                </div>
+                <div class="links">
+                  <a
+                    class="project-github-link"
+                    href="https://github.com/LaxyaRupeja/Chatify-Chat-App"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                    Code
+                  </a>
+                  <a
+                    class="project-deployed-link"
+                    href="https://lovely-lily-a2088f.netlify.app/"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    Live
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="200" class="project-card">
               <div class="imgProject">
                 <img
                   src="projectsImg/Web capture_3-6-2023_181848_craftverse.netlify.app.jpeg"
@@ -321,6 +528,7 @@
                   <a
                     class="project-github-link"
                     href="https://github.com/LaxyaRupeja/nonchalant-wound-7973/"
+                    target="_blank"
                   >
                     <i class="fa-brands fa-github"></i>
                     Code
@@ -328,6 +536,7 @@
                   <a
                     class="project-deployed-link"
                     href="https://craftverse.netlify.com/"
+                    target="_blank"
                   >
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     Live
@@ -335,7 +544,79 @@
                 </div>
               </div>
             </div>
-            <div class="project-card">
+            <div data-aos="zoom-in" data-aos-delay="200" class="project-card">
+              <div class="imgProject">
+                <img
+                  src="projectsImg/Web capture_24-9-2023_181344_advance-code-convertor.vercel.app.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="infoProject">
+                <h3 class="project-title">Advance-Code-Convertor</h3>
+                <p class="project-description">
+                  Effortless code translation to multiple languages, integrated
+                  with GitHub. Try now, powered by OpenAI. Instantly share
+                  converted code. Streamlined development with React and Node.
+                </p>
+                <div class="project-tech-stack">
+                  Tech Stack -
+                  <div>
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+                      alt="react"
+                    />
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://img.icons8.com/color/48/tailwind_css.png"
+                      alt="css3"
+                    />
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://img.icons8.com/color/48/javascript--v1.png"
+                      alt="javascript--v1"
+                    />
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://img.icons8.com/color/48/nodejs.png"
+                      alt="nodejs"
+                    />
+                    <img
+                      width="48"
+                      height="48"
+                      src="https://img.icons8.com/color/48/express-js.png"
+                      alt="express-js"
+                    />
+                    <img width=70" height="48" class="skills-card-img"
+                    src="https://seeklogo.com/images/O/open-ai-logo-560B8FFD24-seeklogo.com.png"
+                    alt="N/A" />
+                  </div>
+                </div>
+                <div class="links">
+                  <a
+                    class="project-github-link"
+                    href="https://github.com/LaxyaRupeja/Advance-Code-Convertor"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                    Code
+                  </a>
+                  <a
+                    class="project-deployed-link"
+                    href="https://advance-code-convertor.vercel.app/"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    Live
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="200" class="project-card">
               <div class="imgProject">
                 <img
                   src="projectsImg/Web capture_3-6-2023_182740_non-veg-verse.netlify.app.jpeg"
@@ -377,6 +658,7 @@
                   <a
                     class="project-github-link"
                     href="https://github.com/LaxyaRupeja/tasteless-horse-2112"
+                    target="_blank"
                   >
                     <i class="fa-brands fa-github"></i>
                     Code
@@ -384,6 +666,7 @@
                   <a
                     class="project-deployed-link"
                     href="https://non-veg-verse.netlify.app/"
+                    target="_blank"
                   >
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     Live
@@ -391,7 +674,7 @@
                 </div>
               </div>
             </div>
-            <div class="project-card">
+            <div data-aos="zoom-in" data-aos-delay="200" class="project-card">
               <div class="imgProject">
                 <img
                   src="projectsImg/Web capture_3-6-2023_183018_stylio.netlify.app.jpeg"
@@ -432,7 +715,8 @@
                 <div class="links">
                   <a
                     class="project-github-link"
-                    href="https://github.com/LaxyaRupeja/abrupt-kitty-9277"
+                    href="https://github.com/LaxyaRupeja/Stylio-Ecommerce-App"
+                    target="_blank"
                   >
                     <i class="fa-brands fa-github"></i>
                     Code
@@ -440,62 +724,7 @@
                   <a
                     class="project-deployed-link"
                     href="https://stylio.netlify.app/"
-                  >
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    Live
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="project-card">
-              <div class="imgProject">
-                <img
-                  src="projectsImg/Web capture_3-6-2023_183018_stylio.netlify.app.jpeg"
-                  alt=""
-                />
-              </div>
-              <div class="infoProject">
-                <h3 class="project-title">Stylio.com</h3>
-                <p class="project-description">
-                  Stylio.com is an e-commerce clothing website inspired by
-                  Ajio.com, designed to provide an easy and seamless shopping
-                  experience for users looking to purchase fashionable clothing
-                  items.
-                </p>
-                <div class="project-tech-stack">
-                  Tech Stack -
-                  <div>
-                    <img
-                      width="48"
-                      height="48"
-                      src="https://img.icons8.com/color/48/html-5--v1.png"
-                      alt="html-5--v1"
-                    />
-                    <img
-                      width="48"
-                      height="48"
-                      src="https://img.icons8.com/color/48/css3.png"
-                      alt="css3"
-                    />
-                    <img
-                      width="48"
-                      height="48"
-                      src="https://img.icons8.com/color/48/javascript--v1.png"
-                      alt="javascript--v1"
-                    />
-                  </div>
-                </div>
-                <div class="links">
-                  <a
-                    class="project-github-link"
-                    href="https://github.com/LaxyaRupeja/abrupt-kitty-9277"
-                  >
-                    <i class="fa-brands fa-github"></i>
-                    Code
-                  </a>
-                  <a
-                    class="project-deployed-link"
-                    href="https://stylio.netlify.app/"
+                    target="_blank"
                   >
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     Live
@@ -509,8 +738,8 @@
       <section id="gitt">
         <div id="github">
           <div id="daysWork">
-            <p>Days I Worked</p>
-            <div class="react-activity-calendar">
+            <p data-aos="zoom-in">Days I Worked</p>
+            <div data-aos="zoom-out" class="react-activity-calendar">
               <img
                 src="https://ghchart.rshah.org/LaxyaRupeja"
                 alt="react-activity-calendar"
@@ -518,19 +747,22 @@
             </div>
           </div>
           <div id="stats">
-            <p>My Statistics</p>
+            <p data-aos="zoom-in">My Statistics</p>
             <div>
               <img
+                data-aos="flip-right"
                 id="github-streak-stats"
                 src="https://github-readme-streak-stats.herokuapp.com/?user=LaxyaRupeja"
                 alt=""
               />
               <img
+                data-aos="flip-right"
                 id="github-stats-card"
                 src="https://github-readme-stats.vercel.app/api?username=LaxyaRupeja&show_icons=true"
                 alt=""
               />
               <img
+                data-aos="flip-right"
                 id="github-top-langs"
                 src="https://github-readme-stats.vercel.app/api/top-langs/?username=LaxyaRupeja"
                 alt=""
@@ -541,7 +773,7 @@
       </section>
       <section id="contact">
         <div>
-          <h3>Contact Me</h3>
+          <h3 data-aos="fade-left">Contact Me</h3>
           <a href="laxyarupeja@gmail.com" id="contact-email">
             <i class="fa-regular fa-envelope"></i>
             laxyarupeja@gmail.com
@@ -552,7 +784,8 @@
           </a>
           <a
             id="contact-linkedin"
-            href="https://www.linkedin.com/in/laxya-rupeja-b9684a221/"
+            href="https://www.linkedin.com/in/laxya-rupeja-68a95527b/"
+            target="_blank"
           >
             <i class="fa-brands fa-linkedin"></i>
             Linkedin
@@ -564,6 +797,7 @@
         </div>
       </section>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   </body>
   <script src="index.js"></script>
 </html>
